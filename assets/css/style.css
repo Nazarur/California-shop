@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;700&display=swap');
 body {
     background: #fff;
     font-family: 'Inter', sans-serif;
@@ -22,6 +22,7 @@ h1 {
 h2 {
     font-size: 42px;
     line-height: 53px;
+    font-family: 'Readex Pro', sans-serif;  
 }
 
 
@@ -89,11 +90,13 @@ header {
     /* text-align: center; */
 }
 .section2 h2 {
+    font-family: 'Readex Pro', sans-serif;
     text-align: center;
 } 
-.section2-under-title {
+.under-title {
+    font-family: 'Readex Pro', sans-serif;
     margin-top: 9px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 16.8px;
     text-align: center;
 }
@@ -118,6 +121,7 @@ header {
     text-align: right;
 }
 .grid-laptops h3 {
+    font-family: 'Readex Pro', sans-serif;
     text-align: right;
     font-size: 32px;
     line-height: 38.4px;
@@ -148,6 +152,7 @@ header {
     text-align: right;
 }
 .watch-title h3 {
+    font-family: 'Readex Pro', sans-serif;
     text-align: right;
     font-size: 32px;
     line-height: 38.4px;
@@ -171,6 +176,7 @@ header {
     text-align: center;
 }
 .phones-title h3 {
+    font-family: 'Readex Pro', sans-serif;
     text-align: center;
     font-size: 32px;
     line-height: 38.4px;
@@ -190,13 +196,132 @@ header {
     text-align: center;
 }
 .laptops-title h3 {
+    font-family: 'Readex Pro', sans-serif;
     text-align: center;
     font-size: 32px;
     line-height: 38.4px;
     margin-bottom: 42px;
 }
 
+.section3 h2 {
+    font-family: 'Readex Pro', sans-serif;
+    margin-top: 52px;
+    text-align: center;
+}
+.section3-under-titles {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 31px;
+}
+.section3 h6 {
+    font-size: 22px;
+    line-height: 27.5px;
+    margin: 9px 0;
+    font-family: 'Readex Pro', sans-serif;
+}
+.all-products {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+}
+.product-container {
+    width: 302.5px;
+    height: 396px;
+}
+.product-container img {
+    margin: 28px;
+}
+.product-container p:nth-child(3) {
+    line-height: 16.8px;
+    font-size: 14px;
+    color: #4B4B4B;
+    height: 34px;
+    margin-bottom: 23px;
+}
+.product-container p:nth-child(4) {
+    font-size: 18px;
+    line-height: 21.6px;
+}
 
+
+.section4 {
+    padding: 28px;
+    text-align: center;
+}
+.section4 h2 {
+    font-family: 'Readex Pro', sans-serif;
+    line-height: 52.5px;
+    margin-top: 47px;
+    margin-bottom: 9px;
+}
+.best-products {
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    margin-top: 56px;
+    height: 453px;
+}
+.best-product-container {
+    background-color: #F8F9FA;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 41px;
+    width: 413px;
+}
+.best-product-container p{
+    line-height: 16.8px;
+    font-size: 13px;
+    font-family: 'Readex Pro', sans-serif;
+}
+.best-product-container h5{
+    font-size: 28px;
+    line-height: 35px;
+    font-family: 'Readex Pro', sans-serif;
+    margin-bottom: 30px;   
+}
+.best-product-container button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border: #000 1px solid;
+    border-radius: 200px;
+    width: 190px;
+    height: 50px;
+    background-color: #F8F9FA;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.section5 {
+    padding: 28px;
+    text-align: center;
+}
+.section5 .ideas-wrapper {
+    margin-top: 56px;
+    display: flex;
+    text-align: left;
+}
+.ideas {
+    margin-left: 35px;
+    font-size: 24px;
+    height: 292px;
+    align-items: space-between;
+}
+.ideas p {
+    line-height: 30px;
+    margin-top: 14px;
+    margin-bottom: 23px;
+}
+.see-all {
+    margin-top: 74px;
+    font-size: 24px;
+}
+.see-all img{
+    margin-top: -4px;
+    width: 30px;
+    height: 28px;
+}
 
 
 
