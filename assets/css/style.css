@@ -66,6 +66,11 @@ header {
     border-radius: 32px;
     margin: 28px auto;
 }
+.section1 img {
+    transition: 0.2s;
+    transform: scale(1);
+    
+}
 .section-title {
     margin-left: 56px;
 }
@@ -84,7 +89,11 @@ header {
     font-size: 18px;
     line-height: 26px;
 }
-
+.section1:hover .main-photo {
+    transform: scale(1.03);
+    padding-bottom: 16px;
+    /* padding-top: 30px; */
+}
 .section2 {
     padding: 28px ;
     /* text-align: center; */
@@ -386,7 +395,114 @@ form input {
     margin-right: 3px;
     margin-bottom: 700px;
 }
-.list1 {
-    margin-bottom: 40px;
+.list2 {
+    margin-top: 40px;
+    margin-bottom: 61px;
 }
+.register-container {
+    width: 935px;
+    height: 358px;
+    text-align: center;
+    margin: auto;
+    background-color: #DCE5E2;
+    border-radius: 16px;
+    padding: 44px;
+}
+
+.register-container img{
+    margin: 15px;
+}
+.register {
+    height: 50px;
+}
+.register input:first-child {
+    width: 285px;
+    height: 46px;
+    background-color: #DCE5E2;
+    color: #000;
+    border-radius: 54px 0 0 54px;
+    border: #000 solid 1px;
+    padding-left: 32px;
+    
+}
+.register button {
+    color: #fff;
+    background-color: #000;
+    border-radius: 0 54px 54px 0;
+    width: 115px;
+    height: 50px;
+    margin-left: -5px;
+}
+
+
+footer {
+    border-top: 1px solid #DCE5E2;
+    /* height: 378px; */
+    background-color: #F8F9FA;
+    padding-top: 45px;
+}
+.footer-up {
+    display: flex;
+}
+.footer-right {
+    width: 394px; 
+}
+.footer-right img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-right p {
+    width: 304px;
+    line-height: 19.2px;
+}
+.footer-left {
+    display: flex;
+    /* width: 901px; */
+    /* justify-content: space-between; */
+    font-size: 17px;
+    font-weight: 21.6px;
+}
+.footer-left ul {
+    width: 197px;
+    margin-left: 28px;
+}
+.footer-left ul li:first-child {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 22px;
+    line-height: 27.5px;
+    margin-bottom: 20px;
+}
+.footer-left ul li {
+    font-size: 17px;
+    line-height: 21.6px;
+    margin-bottom:  15px;
+}
+.footer-bottom {
+    margin-top: 80px;
+    border-top: 1px solid #DCE5E2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1350px;
+    height: 78px;
+    padding: 0 28px 5px 28px;
+}
+.footer-bottom-span .span:first-child {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    padding-right: 4px;
+}
+.footer-bottom-span span:nth-child(2){
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    line-height: 21.6px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
 
